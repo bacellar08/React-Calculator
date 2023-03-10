@@ -22,9 +22,11 @@ body {
 
 .result {
     padding-right: 5px;
+    padding-bottom: 10px;
     color: white;
     text-align: right;
     font-size: 60px;
+    height: 60px;
     width: 220px;
     margin: 0;
 
