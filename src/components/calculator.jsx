@@ -5,13 +5,13 @@ function Calculator() {
 
     const [num, setNum] = useState('0')
 
-
     function clearDisplay() {
         setNum('0')
     }
 
     function insertNum(e) {
         e.preventDefault()
+        // eslint-disable-next-line eqeqeq
         if(num == 0) {
             setNum(e.target.value)
         } else {
@@ -41,8 +41,8 @@ function Calculator() {
                 <h1>Calculator</h1>
 
                     <div className='calc-container'>
-
-                    <p className='result'>{num}</p>
+                        <p className='result'>{num}</p>
+                    
                 <table>
                     <tbody>
 
